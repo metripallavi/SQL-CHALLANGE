@@ -1,0 +1,31 @@
+## SQL Script: Sales Pivot Table
+
+### Overview
+This SQL script generates a pivot table summarizing sales data by quarter, year, and product category, including grand totals.
+
+### Prerequisites
+* A database system 
+* Basic understanding of SQL syntax and concepts.
+
+### Script Breakdown
+* **Table Creation:** Creates a table named `sales` with columns for `SalesID`, `Year`, `SalesAmount`, and `ProductCategory`.
+* **Data Insertion:** Populates the `sales` table with sample sales data.
+* **Pivot Table Creation:** Uses CTEs to calculate total sales per quarter, year, and product category, and creates grand totals.
+
+### Output
+The script produces a table with the following columns:
+* `Year`: The year of the sales data.
+* `Quarter`: The quarter of the year.
+* `ProductCategory`: The product category.
+* `TotalSales`: The total sales amount for the specified quarter, year, and product category.
+
+The table includes a grand total row for each product category and an overall grand total row.
+
+### Usage
+1. Create a new database ( SALES_PIVOT IN THIS CASE)
+2. create the `sales` table and insert data.
+3. Run the pivot table query to get output .
+
+
+
+
